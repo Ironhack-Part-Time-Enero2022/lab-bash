@@ -1,0 +1,751 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AliciaTenenbaum/lab-bash/blob/master/solutions.ipynbAlicia\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "VF8kLjpobJYi"
+      },
+      "source": [
+        "### EJERCICIOS"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "FmTTGpMlbJYj"
+      },
+      "source": [
+        "#### Imprime en consola Hello World."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "gMXg9BiYbJYk"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lab-bash (master)\n",
+        "$ echo Hello World\n",
+        "Hello World\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "cF9LmVsrbJYk"
+      },
+      "source": [
+        "#### Crea un directorio nuevo llamado new_dir."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ApRxbB6qbJYk"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lab-bash (master)\n",
+        "$ mkdir new_dir.\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "TX3dz2UrbJYk"
+      },
+      "source": [
+        "#### Elimina ese directorio."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "xejlbdRZbJYk"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lab-bash/new_dir.\n",
+        "$ rm -r new dir."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "E6rMrlWpbJYl"
+      },
+      "source": [
+        "#### Imprime en consola Hello World."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "oM6iZU86bJYl"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lab-bash/new_dir.\n",
+        "$ echo Hello World\n",
+        "Hello World\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "83rUuXFkbJYl"
+      },
+      "source": [
+        "#### Crea un directorio nuevo llamado new_dir."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "u6IeZRkmbJYl"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lab-bash/new_dir.\n",
+        "$ mkdir new_dir."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "jcwM1F2ObJYl"
+      },
+      "source": [
+        "#### Elimina ese directorio."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "0G-jXp9hbJYl"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lab-bash/new_dir.\n",
+        "$ rm -r new_dir."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "N1QEzYbPbJYl"
+      },
+      "source": [
+        "\n",
+        "#### Copia el archivo sed.txt dentro de la carpeta lorem a la carpeta lorem-copy.\n"
+      ]
+    },
+    {
+      "cell_type": "raw",
+      "metadata": {
+        "id": "xSBx9tz1bJYl"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lorem\n",
+        "$ cp sed.txt lorem-copy "
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "dG_ScBlTbJYm"
+      },
+      "source": [
+        "    "
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "KbaT1dknbJYm"
+      },
+      "source": [
+        "#### Copia los otros dos archivos de la carpeta lorem a la carpeta lorem-copy en una sola línea mediante ;."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "XRmLuFyRbJYm"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lorem\n",
+        "$ cp at.txt lorem.txt"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "geYkym18bJYm"
+      },
+      "source": [
+        "#### Muestra el contenido del archivo sed.txt dentro de la carpeta lorem."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "rB_HetPsbJYm"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lorem\n",
+        "$ cat sed.txt"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "kEwtLUwtbJYm"
+      },
+      "source": [
+        "#### Muestra el contenido de los archivos at.txt y lorem.txt dentro de la carpeta lorem."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "TR3vipYebJYm"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lorem\n",
+        "$ cat at.txt lorem.txt"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "7h3pXOsFbJYm"
+      },
+      "source": [
+        "#### Visualiza las primeras 3 líneas del archivo sed.txt dentro de la carpeta lorem-copy"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "IqnsierFbJYm"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lorem\n",
+        "$ head -n3 sed.txt"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "yT6z-lDUbJYm"
+      },
+      "source": [
+        "#### Visualiza las ultimas 3 líneas del archivo sed.txt dentro de la carpeta lorem-copy"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "bn-qJtYXbJYn"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lorem\n",
+        "$ tail -n 3 sed.txt"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "JtMQJcBZbJYn"
+      },
+      "source": [
+        "#### Añade Homo homini lupus. al final de archivo sed.txt dentro de la carpeta lorem-copy."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "PFl8xuTYbJYn"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lorem/lorem-copy\n",
+        "$ nano sed.txt"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "jheWR-FbbJYn"
+      },
+      "source": [
+        "#### Visualiza las últimas 3 líneas del archivo sed.txt dentro de la carpeta lorem-copy. Deberías ver ahora Homo homini lupus"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "-Vo-p3YbbJYn"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lorem/lorem-copy\n",
+        "$ tail -n 3 sed.txt\n",
+        "Homo homini\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "vRNZXNiPbJYn"
+      },
+      "source": [
+        "#### Sustituye todas las apariciones de et por ET del archivo at.txt dentro de la carpeta lorem-copy. Deberás usar sed."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "O64TOoz9bJYn"
+      },
+      "source": [
+        ""
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "69cGQS_IbJYn"
+      },
+      "source": [
+        "#### Encuentra al usuario activo en el sistema."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "rGMTM42GbJYn"
+      },
+      "source": [
+        ""
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "TLOGI2-6bJYn"
+      },
+      "source": [
+        "#### Encuentra dónde estás en tu sistema de ficheros."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "aEt4G9E_bJYo"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lorem-copy\n",
+        "$ ls"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "wu8nf1MQbJYo"
+      },
+      "source": [
+        "#### Lista los archivos que terminan por .txt en la carpeta lorem."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "kdRv4TblbJYo"
+      },
+      "source": [
+        ""
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "0uGnaBZ6bJYo"
+      },
+      "source": [
+        "#### Cuenta el número de líneas que tiene el archivo sed.txt dentro de la carpeta lorem."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "E2olke4AbJYo"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lorem\n",
+        "$ wc sed.txt"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "p4dbQ6iTbJYo"
+      },
+      "source": [
+        "#### Cuenta el número de archivos que empiezan por lorem que están en este directorio y en directorios internos."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "FQj_d3OQbJYo"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~\n",
+        "$ wc lorem\n",
+        "wc: lorem: Is a directory\n",
+        "      0       0       0 lorem\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Aaiiwh7ybJYp"
+      },
+      "source": [
+        "#### Encuentra todas las apariciones de et en at.txt dentro de la carpeta lorem."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "veEv1J6mbJYp"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lorem\n",
+        "$ find at.txt -et"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "wZnXJkJWbJYp"
+      },
+      "source": [
+        "#### Cuenta el número de apariciones del string et en at.txt dentro de la carpeta lorem."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "a-epk0zybJYp"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lorem\n",
+        "$ wc at.txt et"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "zpME5r77bJYp"
+      },
+      "source": [
+        "#### Cuenta el número de apariciones del string et en todos los archivos del directorio lorem-copy."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "0ux9FaJ2bJYp"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~/lorem-copy\n",
+        "$ wc et"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "79nkJK8KbJYp"
+      },
+      "source": [
+        "### BONUS"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "fvREY9g0bJYp"
+      },
+      "source": [
+        ""
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "VuZepa7vbJYq"
+      },
+      "source": [
+        "#### Almacena en una variable name tu nombre."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "giQehVMGbJYq"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~\n",
+        "$ age=ali\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "oNPeZRAlbJYq"
+      },
+      "source": [
+        "#### Imprime esa variable."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "fIBUjArZbJYq"
+      },
+      "source": [
+        ""
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "hTLRH3RsbJYq"
+      },
+      "source": [
+        "#### Crea un directorio nuevo que se llame como el contenido de la variable name."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "RVdAcOYybJYq"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~\n",
+        "$ mkdir ali"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "MgvD7UKMbJYq"
+      },
+      "source": [
+        "#### Elimina ese directorio."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "1TMbCzcxbJYq"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~\n",
+        "$ rm -r ali"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "EHTrT6uDbJYq"
+      },
+      "source": [
+        "#### Por cada archivo dentro de la carpeta lorem imprime el número de carácteres que tienen sus nombres. Intenta primero mostrar los archivos mediante un bucle for:\n",
+        "\n",
+        "- Imprime los ficheros\n",
+        "- Imprime las longitudes de los nombres de los ficheros\n",
+        "- Imprime outputs con la siguiente estructura: lorem has 5 characters lenght"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "WoXsNEbWbJYr"
+      },
+      "source": [
+        ""
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "tIWHAeyzbJYr"
+      },
+      "source": [
+        "#### Muestra los procesos de forma jerárquica que se están ejecutando en tu ordenador:\n",
+        "\n",
+        "- Usando el comando top o htop\n",
+        "- Usando el comando ps con argumentos"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "AksASaUgbJYr"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~\n",
+        "$ top ->\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "-XNFCvmWbJYr"
+      },
+      "source": [
+        "#### Muestra información sobre tu procesador por pantalla"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "AplphfvbbJYr"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~\n",
+        "$ top ->"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "qbQj7y9FbJYs"
+      },
+      "source": [
+        "#### Crea 3 alias y haz que estén disponibles cada vez que inicias sesión"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "d82JkCLcbJYs"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~\n",
+        "$ alias jn= \"jupyter notebook\"\n",
+        "bash: alias: jupyter notebook: not found\n",
+        "\n",
+        "alici@LAPTOP-2VP4738D MINGW64 ~\n",
+        "$ alias clases= \"cd\"\n",
+        "bash: alias: cd: not found"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "DtYF-DWubJYs"
+      },
+      "source": [
+        "#### Comprime las carpetas lorem y lorem-copy en un archivo llamado lorem-compressed.tar.gz"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "APLD-l2wbJYs"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~\n",
+        "$ compact /c lorem lorem-copy\n",
+        "\n",
+        "o no sé si está sería correcta: compact /c/s: lorem uncompressed lorem lorem-copy\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "dn97zvRObJYs"
+      },
+      "source": [
+        "#### Descomprime el archivo lorem-compressed.tar.gz en la carpeta lorem-uncompressed"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "1TmnFO97bJYs"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~\n",
+        "$ /u lorem uncompressed lorem-compressed\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "bB9_Dt-NbJYs"
+      },
+      "source": [
+        "#### Descomprime el archivo lorem-compressed.tar.gz en la carpeta lorem-uncompressed"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "IaK8xbW2bJYs"
+      },
+      "source": [
+        "alici@LAPTOP-2VP4738D MINGW64 ~\n",
+        "$ /u lorem uncompressed lorem-compressed\n"
+      ]
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3 (ipykernel)",
+      "language": "python",
+      "name": "python3"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "ipython",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.9.7"
+    },
+    "toc": {
+      "base_numbering": 1,
+      "nav_menu": {},
+      "number_sections": true,
+      "sideBar": true,
+      "skip_h1_title": true,
+      "title_cell": "Table of Contents",
+      "title_sidebar": "Contents",
+      "toc_cell": false,
+      "toc_position": {},
+      "toc_section_display": true,
+      "toc_window_display": false
+    },
+    "colab": {
+      "name": "solutions.ipynb",
+      "provenance": [],
+      "include_colab_link": true
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
